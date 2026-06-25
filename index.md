@@ -51,7 +51,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
-  So far, I have assembled my color sensor. I wired it up to my UNO board, which provides power for the sensor and its four lights and recieves inputs.
+  So far, I have assembled my color sensor. I wired it up to my UNO board, which provides power for the sensor and its four lights and recieves inputs. I faced some challenges getting all the wires right and making sure the sensor worked porperly
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
