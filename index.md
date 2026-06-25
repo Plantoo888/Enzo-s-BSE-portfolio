@@ -39,7 +39,8 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-Now, I have put my LED lights in on my bread board, and they work. They trun on whenever one color intensity is detcted to be higher than the others. The color with the higehr intensity turns on its respective light. I am suprised at how easy the project was because i though it was going to be really hard to finish. But now I am like halfway done. I had a big problem making sure my LEDs truned on when they were called and now when they were called, since previously my LED lights just stayed on forever. 
+Now, I have put my LED lights in on my bread board, and they work. They trun on whenever one color intensity is detcted to be higher than the others. The color with the higehr intensity turns on its respective light. I am suprised at how easy the project was because i though it was going to be really hard to finish. But now I am like halfway done. I had a big problem making sure my LEDs truned on when they were called and now when they were called, since previously my LED lights just stayed on forever. Before my final milestone, I want to find a way to make my LEDs brighther since i am currently using these tiny lights that like tickle the darkness. Also, I would like to add a protective cover and a way to hold my color sensor steady even when moving.
+
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
