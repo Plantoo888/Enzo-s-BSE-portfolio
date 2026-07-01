@@ -50,15 +50,159 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <Adafruit_NeoPixel.h>  
+#ifdef __AVR__  
+#include <avr/power.h>  
+#endif  
+   
+ // Which pin on the Arduino is connected to the NeoPixels?  
+#define PIN      9  
+   
+ // How many NeoPixels are attached to the Arduino?  
+#define NUMPIXELS 5  
+   
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);  
+   
+int delayval = 333; // delay  
+ int redraw = 0; 
+ int greenraw = 0;
+ int blueraw = 0;
+#define S0 4
+#define S1 5
+#define S2 6
+#define S3 7
+#define sensorOut 8
+ 
+int frequency = 0;
+int Red, Green, Blue;
+ 
 void setup() {
-  // put your setup code here, to run once:
+
+
+
+
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  pinMode(S2, OUTPUT);
+  pinMode(S3, OUTPUT);
+  pinMode(sensorOut, INPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+  pinMode(11, OUTPUT);
+ 
+  // Setting frequency-scaling to 20%
+  digitalWrite(S0,HIGH);
+  digitalWrite(S1,LOW);
+ 
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pixels.begin(); // This initializes the NeoPixel library.  
 }
-
+ 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Setting red filtered photodiodes to be read
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,LOW);
+  // Reading the output frequency
+  frequency = pulseIn(sensorOut, LOW);
+  //Remaping the value of the frequency to the RGB Model of 0 to 255
+  //frequency = map(frequency, 25,72,255,0); 
+  
+  //if (frequency < 0) {
+  //  frequency = 0;
+ // }
+  //if (frequency > 255) {
+  //  frequency = 255;
+  //}
+  Red= frequency;
+  // Printing the value on the serial monitor
+  Serial.print("R= ");
+  //printing name
+  redraw = frequency;
+  redraw = redraw - 49;
 
+  Serial.print(redraw);//printing RED color frequency
+  Serial.print("  ");
+  delay(100);
+ 
+  // Setting Green filtered photodiodes to be reawd
+  digitalWrite(S2,HIGH);
+  digitalWrite(S3,HIGH);
+  // Reading the output frequency
+  frequency = pulseIn(sensorOut, LOW);
+  //Remaping the value of the frequency to the RGB Model of 0 to 255
+  //frequency = map(frequency, 30,90,255,0);
+  //if (frequency < 0) {
+  //  frequency = 0;
+  //}
+  //if (frequency > 255) {
+  //  frequency = 255;
+  //}
+  Green = frequency;
+  // Printing the value on the serial monitor
+  Serial.print("G= ");//printing name
+  greenraw = frequency;
+  greenraw= greenraw - 49;
+  
+  Serial.print(frequency);//printing RED color frequency
+  Serial.print("  ");
+  delay(100);
+ 
+  // Setting Blue filtered photodiodes to be read
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,HIGH);
+  // Reading the output frequency
+  frequency = pulseIn(sensorOut, LOW);
+  //Remaping the value of the frequency to the RGB Model of 0 to 255
+  //frequency = map(frequency, 25,70,255,0);
+  //if (frequency < 0) {
+  //  frequency = 0;
+  //}
+  //if (frequency > 255) {
+  //  frequency = 255;
+  //}
+  Blue = frequency;
+  // Printing the value on the serial monitor
+  Serial.print("B= ");//printing name
+  blueraw = frequency;
+  blueraw = blueraw - 44;
+ 
+ digitalWrite(13, LOW);
+ digitalWrite(11, LOW);
+ digitalWrite(12, LOW);
+  
+
+  Serial.print(frequency);//printing RED color frequency
+  Serial.println("  ");
+  pixels.setPixelColor(0, pixels.Color(Red,Green,Blue)); // Moderately bright green color.
+  pixels.setBrightness(64);  
+  pixels.show(); // This sends the updated pixel color to the hardware.
+  delay(100);
+  frequency= pulseIn(sensorOut, LOW);
+  Serial.print("Raw rgb value");
+  Serial.print(frequency);
+  Serial.print(" This color is: ");
+  delay(1000);
+  if (Red == 0 && Green == 0 && Blue == 0) {
+    Serial.println("Black  "); 
+  }
+
+
+  if (redraw > blueraw && redraw > greenraw) {
+    digitalWrite(11, HIGH);
+  }
+  else if (blueraw > redraw && blueraw > greenraw) {
+    digitalWrite(13, HIGH);
+  }
+  else if ( greenraw > blueraw && greenraw > redraw) {
+    digitalWrite(12, HIGH);
+  }
+
+  else {
+    digitalWrite(13, LOW);
+    digitalWrite(12, LOW);
+    digitalWrite(11, LOW);
+  
+  }
 }
 ```
 
@@ -72,6 +216,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Arduino color sensor | Detects color intensity | $16 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Jumper wires | Connects components and carries electricty | $9 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> 
 | Bread board | Helpful for connect my LED lights to my Uno board | $6.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
+| Perf Board | Used for soldering my compennets to make it my stuff mroe compect | $5.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
 Link </a> |
 
 # Other Resources/Examples
