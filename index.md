@@ -216,7 +216,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Arduino color sensor | Detects color intensity | $16 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Jumper wires | Connects components and carries electricty | $9 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> 
 | Bread board | Helpful for connect my LED lights to my Uno board | $6.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
-| Perf Board | Used for soldering my compennets to make it my stuff mroe compect | $5.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
+| Perf Board | Used for soldering my compennets to make it my stuff more compect | $5.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
 Link </a> |
 
 # Other Resources/Examples
