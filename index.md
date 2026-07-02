@@ -25,6 +25,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
+  In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my stuff to my perf board beacause
 
 
 
