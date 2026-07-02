@@ -220,6 +220,6 @@ Link </a> |
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Electric Chameleon with Arduino](https://www.circuits-diy.com/electronic-chameleon-arduino/#google_vignette)
 - [Arduino Blink Code](https://docs.arduino.cc/built-in-examples/basics/Blink/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [Onshape Cading software](https://cad.onshape.com/documents/d0065ab7d55b9036e3234d8b/w/4aa930961465e979f6b4daca/e/80b4e087bca822ffd074f486)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
