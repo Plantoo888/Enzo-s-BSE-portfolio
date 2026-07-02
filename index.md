@@ -215,11 +215,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Jumper wires | Connects components and carries electricty | $9 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> 
 | Bread board | Helpful for connect my LED lights to my Uno board | $6.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
 | Perf Board | Used for soldering my compennets to make it my stuff more compect | $5.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/">
-Link </a> |
+
 
 # Other Resources/Examples
 - [Electric Chameleon with Arduino](https://www.circuits-diy.com/electronic-chameleon-arduino/#google_vignette)
 - [Arduino Blink Code](https://docs.arduino.cc/built-in-examples/basics/Blink/)
 - [Onshape Cading software](https://cad.onshape.com/documents/d0065ab7d55b9036e3234d8b/w/4aa930961465e979f6b4daca/e/80b4e087bca822ffd074f486)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
