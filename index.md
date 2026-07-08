@@ -1,6 +1,6 @@
 #Chameloen Light Project
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-My project is a color copying light. It has a sensor to detect color intensities and a light to display the color that the sensor detects. I was able to construct a working prototype quite quickly. After that I started making a cover for my wires and started solderng my bread board components to my perf board. After my perf board was finished, I had to make a case for my wires.
+My project is a color copying light. It has a sensor to detect color intensities and a light to display the color that the sensor detects. I was able to construct a working prototype quite quickly. After that I started making a cover for my wires and started solderng my bread board components to my perf board. After my perf board was finished, I had to make a case for my wires. After finsihing the case. I had to fit everything in and hot glue some compenenets to the case for stability. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
