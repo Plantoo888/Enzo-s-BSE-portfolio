@@ -13,7 +13,7 @@ You should comment out all portions of your portfolio that you have not complete
 | Enzo L | Stratford Prepatory Blackford | Building things | Becoming a 7th grader
 
 ![Image](IMG_5214.jpeg)
-![Headstone Image](logo.svg)
+
   
 # Final Milestone
 
