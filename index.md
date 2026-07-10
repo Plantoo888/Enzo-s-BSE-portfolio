@@ -31,6 +31,7 @@ Now, I have put my LED lights in on my bread board, and they work. They trun on 
   So far, I have assembled my color sensor. I wired it up to my UNO board, which provides power for the sensor and its four lights and recieves inputs. I faced some challenges getting all the wires right and making sure the sensor worked porperly. My main challenge, though, was making sure my color sensor was getting all the right inputs. My code was restricting mhy sensor to only detect color intensities of 25, 72, and 255. I had to update my code to allow my color sensor to detect all color intensities. I think i will have to add my RGB LED lights and a cover for my project.
 # Schematics 
  My UNO blard draws power than it turns on my LED and color sensor. The color sensor detects and saves the color of its environment. It then changes the RGB LED to the respective color.
+
 ![Schematoc diagram](circuit_image.png)
 # Code
 
