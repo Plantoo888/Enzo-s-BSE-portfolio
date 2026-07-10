@@ -12,7 +12,7 @@ My project is a color copying light. It has a sensor to detect color intensities
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GlpoLDxkqZ0?si=Yh8hLCsF_w85LSam" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my components to my perf board beacause it took a long time. Also, I had to  make sure all my compoenents were in the right place was a challenge too. I learned not to touch soldering irons and hot glue at Bluestamp engineering. One of my biggest triumphs here at bluestamp was finsihing my project. It was particulary triumpanh because it took me three weeks and I had to go through a few prototypes and update my code a bunch of times. In the end, I finshed my project and it works(kinda). I hope to learn how code better with C++ in the future. 
 
