@@ -1,12 +1,5 @@
-#Chameloen Light Project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Chameloen Light Project
 My project is a color copying light. It has a sensor to detect color intensities and a light to display the color that the sensor detects. I was able to construct a working prototype quite quickly. After that I started making a cover for my wires and started solderng my bread board components to my perf board. After my perf board was finished, I had to make a case for my wires. After finsihing the case. I had to fit everything in and hot glue some compenenets to the case for stability. 
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -26,7 +19,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-  In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my components to my perf board beacause it took a long time. Also, I had to  make sure all my compoenents were in the right place was a challenge too. I learned not to touch soldering irons and hot glue at Bluestamp engineering. One of my biggest triumphs here at bluestamp was finsihing my project. It was particulary triumpanh because it took me three weeks and I had to go through a few prototypes and update my code a bunch of times. In the end, I finshed my project and it works(kinda). I hope to learn how code betetr with C++ in the future. 
+  In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my components to my perf board beacause it took a long time. Also, I had to  make sure all my compoenents were in the right place was a challenge too. I learned not to touch soldering irons and hot glue at Bluestamp engineering. One of my biggest triumphs here at bluestamp was finsihing my project. It was particulary triumpanh because it took me three weeks and I had to go through a few prototypes and update my code a bunch of times. In the end, I finshed my project and it works(kinda). I hope to learn how code better with C++ in the future. 
 
 
 
