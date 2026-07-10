@@ -3,7 +3,7 @@ My project is a color copying light. It has a sensor to detect color intensities
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Enzo L | Stratford Prepatory Blackford | Building things | Becoming a 7th grader
+| Enzo L | Stratford Prepatory Blackford | Building things | Rising 7th grader
 
 ![Image](IMG_5214.jpeg)
 
@@ -12,7 +12,7 @@ My project is a color copying light. It has a sensor to detect color intensities
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GlpoLDxkqZ0?si=Yh8hLCsF_w85LSam" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my components to my perf board beacause it took a long time. Also, I had to  make sure all my compoenents were in the right place was a challenge too. I learned not to touch soldering irons and hot glue at Bluestamp engineering. One of my biggest triumphs here at bluestamp was finsihing my project. It was particulary triumpanh because it took me three weeks and I had to go through a few prototypes and update my code a bunch of times. In the end, I finshed my project and it works. I hope to learn how code better with C++ in the future. 
+  In my third milestone, I am making a cover for my components to make it more compect and make it look better. My bioggest challenge was soldering all my components to my perf board beacause it took a long time. Also, I had to  make sure all my compoenents were in the right place was a challenge too. I learned not to touch soldering irons and hot glue at Bluestamp engineering. One of my biggest triumphs here at bluestamp was assembling all my parts into my case. It was particulary triumphs because it took me a long time and a few prototypes to get my case right. Also, I got to use a bunch of hot glue, which is always satifsfying. In the end, I finshed my project and it works. I hope to learn how code better with C++ in the future. 
 
 
 
